@@ -1,0 +1,134 @@
+body {
+  background-color: hwb(31 85% 5%);
+}
+
+.page {
+  display: block;
+  position: relative;
+  border-radius: 10px 10px 10px;
+  margin: 100px;
+  height: 1750px;
+  left: 400px;
+  padding: 20px;
+  margin-left: 150px;
+  line-height: 2;
+
+  width: 650px;
+  background-color: #fff;
+}
+
+.img {
+  display: block;
+  position: absolute;
+  border-radius: 10px 10px 10px;
+  top: 5px;
+  width: 92%;
+  height: 200px;
+  padding-top: 3px;
+  padding-left: -10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+
+h1 {
+  display: block;
+  position: relative;
+  top: 180px;
+  left: 10px;
+  text-transform: capitalize;
+}
+
+.p {
+  display: block;
+  position: relative;
+  top: 140px;
+  margin: 5px;
+  padding: 10px;
+}
+
+h4 {
+  color: hsl(332, 51%, 32%);
+  margin: 5px;
+  padding: 10px;
+}
+
+.time {
+  display: block;
+  position: relative;
+  top: 150px;
+  border-radius: 10px 10px 10px;
+  margin: 5px;
+  padding: 10px;
+  width: 92%;
+  background-color: hwb(31 85% 5%);
+  font-family: sans-serif;
+}
+
+.Ingredients {
+  display: block;
+  position: relative;
+  border-radius: 10px 10px 10px;
+  top: 150px;
+  margin: 5px;
+  padding: 10px;
+  width: 90%;
+  background-color: hsl(330, 100%, 98%);
+  color: hsl(14, 45%, 36%);
+  font-family: sans-serif;
+}
+
+.ingr {
+  color: black;
+  border-radius: 10px 10px 10px;
+}
+
+.Instructions {
+  display: block;
+  position: relative;
+  top: 150px;
+  margin: 5px;
+  border-radius: 10px 10px 10px;
+  padding: 10px;
+  width: 90%;
+  background-color: hsl(330, 100%, 98%);
+  color: hsl(14, 45%, 36%);
+  font-family: sans-serif;
+}
+
+.inst {
+  color: black;
+  border-radius: 10px 10px 10px;
+}
+.Nutrition {
+  display: block;
+  position: relative;
+  border-radius: 10px 10px 10px;
+  top: 150px;
+  margin: 5px;
+  padding: 10px;
+  width: 90%;
+  background-color: hsl(330, 100%, 98%);
+  color: hsl(14, 45%, 36%);
+  font-family: sans-serif;
+}
+
+.last {
+  color: black;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+td {
+  padding: 5px;
+  text-align: left;
+}
